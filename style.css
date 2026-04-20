@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #1f3a5f;
+  color: white;
+  padding: 15px 20px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#themeButton {
+  padding: 8px 12px;
+  border: none;
+  background-color: white;
+  color: #1f3a5f;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #dbe8f4;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.section-box {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: #eef3f8;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f3a5f;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode .hero {
+  background-color: #222;
+}
+
+.dark-mode .section-box {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #2a2a2a;
+}
+
+.dark-mode footer {
+  background-color: #000;
+}
+
+.dark-mode #themeButton {
+  background-color: #444;
+  color: white;
+}
